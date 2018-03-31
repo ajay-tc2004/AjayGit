@@ -10,7 +10,6 @@ public class RegExExample {
 	
 static Function<String, String> funcEmpToString= (String str)-> {
 	String modifiedString="";
-	System.out.println("Stop Messing  ");
 	System.out.println("String to pe parsed  "+str);
 	if(str.contains("_.[Document.Id]")){
 		 String [] strArr=str.split("_");
